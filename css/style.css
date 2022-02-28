@@ -1,0 +1,147 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@media(max-width: 600px)
+{
+body{
+    width: 100%;
+} 
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    color: #40514e;
+}
+.top-container{
+    padding-top: 180px;
+    position: relative;
+    text-align: center;
+    background-color: rgba(212, 243, 243, 0.959);
+    width: 100%;
+}
+.top-container > h1{
+    font-family: "Raleway" ,sans-serif;
+    font-size: 4rem;
+    margin-top: 0;
+    color: #66BFBF;
+    line-height: 2;
+}
+.top-container > h2{
+    padding-top: 40px;
+    font-family: "Raleway" ,sans-serif; 
+    font-size: 1.5rem; 
+    font-weight: normal;
+    color: #66BFBF;
+}
+.intro{
+    margin: auto;
+    width: 30%;
+    line-height: 2;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    margin-top: auto;
+    padding-top: 80px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+    margin-bottom: auto;
+    padding-bottom: 10px;
+}
+.mountain {
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: -5px;
+}
+.profile img{
+    width: 15%;
+    border-radius: 25%;
+}
+hr{
+    background-color: #66BFBF;
+    height: 1px;
+    border: 0;
+    width: 10%;
+}
+.skill-row{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 115px;
+    text-align: left;
+    line-height: 2;
+}
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.chilli{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+h2,h3{
+    font-family: 'Raleway';
+    color:#66BFBF ;
+    font-weight: bold;
+}
+.middle-container{
+    margin: 100px 0 100px 0;
+    text-align: center;
+   
+}
+.bottom-container{
+    text-align: center;
+    padding: 50px 0 20px;
+    background-color: #66BFBF;
+    font-family: sans-serif;
+}
+/*.footer-link{
+    padding: 50px;
+    text-decoration: none;
+    color: #036161;
+}*/
+.footer-link:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+.contact-me{
+    padding-bottom: 1px;
+}
+.contact-message{
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+}
+
+.botao{
+    padding-top: 50px;
+}
+.btn{
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#11cdd4;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.btn:hover{
+    background-color:#30e3cb;
+    transition-duration: 0.5s;
+}
+a{
+   font-size: 20px;
+    text-decoration: none;
+    color: #036161a6;
+    margin: 10px 20px;
+}
+.copyright{
+    padding-top: 20px;
+    color: white;
+}
